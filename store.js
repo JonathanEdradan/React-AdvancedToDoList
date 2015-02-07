@@ -17,7 +17,6 @@ ListStore = {
   },
 
   loadItems: function() {
-
     var loadRequest = $.ajax({
       type: 'GET',
       url: "https://listalous.herokuapp.com/lists/jonathanedradan/"
